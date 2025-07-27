@@ -16,3 +16,6 @@ I don't know about other DE/WM, but by having those files backed up, you ensure 
 to get the color profiles off Windows, go to `C:\Windows\system32\spool\drivers\color`. You'll find several files there. look for the .ICM files, and backup them.
 
 then, on KDE plasma, open screen settings, and import the files. your screen will adjust itself to match Windows colors.
+
+Another important thing: copy the entire Font folder from Windows, so you can read text on any language. it is known that, Arch, doesn't come with the proper fonts to render emojis/asian languages.
+the fonts are located on `C:\Windows\Fonts`
